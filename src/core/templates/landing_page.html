@@ -293,23 +293,7 @@
             <div class="row">
               <div class="col-sm-6">
 
-                <div class="footer-info">
-                  <h3>Open Classroom</h3>
-                  <p>Open Classroom
-                    for Your Effective Teaching!</p>
-                </div>
-
-                <div class="footer-newsletter">
-                  <h4>Our Newsletter</h4>
-                  <p>Subscribe to our newsletter to get daily updates and educational articles to read.</p>
-                  <form action="{% url 'newsletter:subscribe' %}" method="post">
-                    {% csrf_token %}
-                    
-                    {{ subscribe_form.email }}
-                    <input class = "mt-1" type="submit" value="Subscribe">
-                  </form>
-                </div>
-
+    
               </div>
 
               <div class="col-sm-6">
