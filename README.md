@@ -19,7 +19,7 @@ source venv/bin/activate
 cd src
 ``````
 
-``````
+
 
 **3. Migrate & Start Server**
 ```sh
