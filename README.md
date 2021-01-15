@@ -4,3 +4,25 @@
 [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)]()
 # L.C.R(Learn.Connect.Regulate)
 This is an attempt to clone the best features of google classroom and educative.io using django.
+
+## Installation
+
+**1. Clone Repository & Install Packages**
+```sh
+git clone https://github.com/Chaitanyaraykar/Ekyam-scl-maxo.git
+pip install -r requirements.txt
+```
+**2. Setup Environment**
+```sh
+python -m  venv venv
+source venv/bin/activate
+cd src
+``````
+
+``````
+
+**3. Migrate & Start Server**
+```sh
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
